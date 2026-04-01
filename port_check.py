@@ -7,8 +7,6 @@ with open("/home/melakee/lab_prep/target_intel.txt", "r") as f:
 my_ip="192.168.64.1"
 targets[-1]=my_ip
 
-
-targets = ["127.0.0.1", "8.8.8.8", "1.1.1.1", "10.0.0.1", "192.168.64.1"]
 for ip in targets:
     print(f"--- Checking Server: {ip} ---")
 
